@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+.Header,
+.hero,
+.Footer {
+    background-color: #1f2937;
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    color: #f9faf8;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content.one {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.content.two {
+    font-size: 36px;
+}
+
+.content.three {
+    display: flex;
+    background-color: #e5e7eb;
+}
+
+.Footer {
+    display: flex;
+}
