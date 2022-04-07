@@ -17,7 +17,7 @@ body {
     flex-flow: row wrap;
 }
 
-a {
+a {s
     text-decoration: none;
 }
 
@@ -29,10 +29,10 @@ a {
 }
 
 .Header {
-    font-size: 24px;
-    color: #f9faf8
     display: flex;
     justify-content: space-around;
+    font-size: 24px;
+    color: #f9faf8
 }
 
 .hero {
